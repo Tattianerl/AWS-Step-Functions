@@ -1,0 +1,30 @@
+{
+  "Comment": "Exemplo de integração AWS Step Functions com Bedrock",
+  "StartAt": "GerarTextoIA",
+  "States": {
+    "GerarTextoIA": {
+      "Type": "Task",
+      "Resource": "arn:aws:bedrock:REGION:ACCOUNT_ID:function:GenerateTextModel",
+      "Next": "VerificacaoTexto"
+    },
+    "VerificacaoTexto": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.output.length",
+          "NumericGreaterThan": 100,
+          "Next": "TarefaFinal"
+        }
+      ],
+      "Default": "Erro"
+    },
+    "Erro": {
+      "Type": "Fail",
+      "Error": "ErroNaIA",
+      "Cause": "O texto gerado é muito curto"
+    },
+    "TarefaFinal": {
+      "Type": "Succeed"
+    }
+  }
+}
