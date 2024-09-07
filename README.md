@@ -33,3 +33,9 @@ O AWS Bedrock é uma plataforma que oferece acesso a modelos de IA generativa pr
 1. AWS Step Functions: Defina seu fluxo de trabalho em ASL (Amazon States Language) e conecte serviços da AWS como Lambda, DynamoDB e Bedrock.
 2. AWS Bedrock: Integre modelos de IA generativa para criar textos ou outros conteúdos automaticamente.
 3. Monitoramento e Escalabilidade: Monitore o fluxo de trabalho usando a visualização gráfica do Step Functions e aproveite a escalabilidade do Bedrock para cargas de trabalho intensivas de IA.
+
+# Links Úteis
+[AWS Step Functions:]https://aws.amazon.com/pt/step-functions/
+[Serverless e Amazon Bedrock:] https://aws.amazon.com/pt/blogs/aws-brasil/como-criar-um-assistente-virtual-de-baixa-latencia-com-multiplos-modelos-usando-serverless-e-amazon-bedrock/
+
+ 
