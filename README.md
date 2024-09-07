@@ -1,4 +1,4 @@
-# AWS Step Functions e AWS Bedrock - Orquestração e IA na AWS
+ AWS Step Functions e AWS Bedrock - Orquestração e IA na AWS
 ## Visão Geral
 Este projeto visa demonstrar o uso do AWS Step Functions para orquestrar múltiplos serviços da AWS em fluxos de trabalho automatizados, além de integrar o AWS Bedrock, uma plataforma de IA generativa que facilita a criação de soluções baseadas em inteligência artificial.
 
