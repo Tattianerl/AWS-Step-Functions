@@ -39,6 +39,6 @@ AWS Step Functions: https://aws.amazon.com/pt/step-functions/
 
 Serverless e Amazon Bedrock: https://aws.amazon.com/pt/blogs/aws-brasil/como-criar-um-assistente-virtual-de-baixa-latencia-com-multiplos-modelos-usando-serverless-e-amazon-bedrock/
 
-Agradecimento pelo Curso AWS Step Functions e Bedrock na [DIO.me] (https://www.dio.me/)
+Agradecimento pelo Curso AWS Step Functions e Bedrock na DIO.me. https://www.dio.me/
 
  
