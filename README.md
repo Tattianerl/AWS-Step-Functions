@@ -35,7 +35,7 @@ O AWS Bedrock é uma plataforma que oferece acesso a modelos de IA generativa pr
 3. Monitoramento e Escalabilidade: Monitore o fluxo de trabalho usando a visualização gráfica do Step Functions e aproveite a escalabilidade do Bedrock para cargas de trabalho intensivas de IA.
 
 # Links Úteis
-[AWS Step Functions:](https://aws.amazon.com/pt/step-functions/)
+AWS Step Functions: https://aws.amazon.com/pt/step-functions/
 
 Serverless e Amazon Bedrock: https://aws.amazon.com/pt/blogs/aws-brasil/como-criar-um-assistente-virtual-de-baixa-latencia-com-multiplos-modelos-usando-serverless-e-amazon-bedrock/
 
