@@ -10,7 +10,7 @@ O AWS Step Functions é um serviço baseado em máquinas de estado que coordena 
 
 ### Principais Características:
 - Orquestração de Serviços: Conecta e gerencia serviços como Lambda, EC2, DynamoDB, S3, entre outros.
--Item Tolerância a Falhas: Automaticamente tenta novamente tarefas que falham e suporta configurações avançadas de retries.
+- Tolerância a Falhas: Automaticamente tenta novamente tarefas que falham e suporta configurações avançadas de retries.
 - Diagrama Visual: Fornece uma visualização clara do fluxo de execução.
 - Definição via ASL (Amazon States Language): Os fluxos de trabalho são definidos usando JSON, facilitando a customização.
 - Execução Condicional e Paralela: Permite a criação de ramificações no fluxo de acordo com condições predefinidas e a execução de tarefas simultâneas.
@@ -26,10 +26,10 @@ O AWS Bedrock é uma plataforma que oferece acesso a modelos de IA generativa pr
 
 ## Por que usar AWS Step Functions e AWS Bedrock?
 - Automatização e Orquestração: AWS Step Functions permite coordenar diferentes serviços AWS em um único fluxo de trabalho.
--Integração com IA: Com o AWS Bedrock, é possível incorporar inteligência artificial em diferentes etapas do fluxo, como geração automática de texto ou imagens.
+- Integração com IA: Com o AWS Bedrock, é possível incorporar inteligência artificial em diferentes etapas do fluxo, como geração automática de texto ou imagens.
 - Escalabilidade e Tolerância a Falhas: Ambos os serviços oferecem escalabilidade automática e alta resiliência para garantir que as tarefas sejam concluídas com sucesso.
 
 ## Como usar:
 1. AWS Step Functions: Defina seu fluxo de trabalho em ASL (Amazon States Language) e conecte serviços da AWS como Lambda, DynamoDB e Bedrock.
-AWS Bedrock: Integre modelos de IA generativa para criar textos ou outros conteúdos automaticamente.
-Monitoramento e Escalabilidade: Monitore o fluxo de trabalho usando a visualização gráfica do Step Functions e aproveite a escalabilidade do Bedrock para cargas de trabalho intensivas de IA.
+2. AWS Bedrock: Integre modelos de IA generativa para criar textos ou outros conteúdos automaticamente.
+3. Monitoramento e Escalabilidade: Monitore o fluxo de trabalho usando a visualização gráfica do Step Functions e aproveite a escalabilidade do Bedrock para cargas de trabalho intensivas de IA.
